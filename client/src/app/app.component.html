@@ -1,0 +1,2 @@
+<button *ngIf="!sharing" (click)="startScreenShare()">Share Screen</button>
+<video id="preview" [srcObject]="mediaStream" [muted]="true" [autoplay]="true"></video>
