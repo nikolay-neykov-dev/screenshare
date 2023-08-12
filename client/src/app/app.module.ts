@@ -3,7 +3,7 @@ import { BrowserModule } from "@angular/platform-browser";
 import { SocketIoModule } from "ngx-socket-io";
 import { AppComponent } from "./app.component";
 
-const url = "https://192.168.4.101:3000";
+const url = "https://77.76.56.17";
 
 @NgModule({
     declarations: [AppComponent],
