@@ -7,7 +7,7 @@ const url = "https://77.76.56.17";
 
 @NgModule({
     declarations: [AppComponent],
-    imports: [BrowserModule, SocketIoModule.forRoot({ url })],
+    imports: [BrowserModule, SocketIoModule.forRoot({ url: window.location.href })],
     providers: [],
     bootstrap: [AppComponent],
 })
