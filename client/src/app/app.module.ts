@@ -5,7 +5,7 @@ import { AppComponent } from "./app.component";
 
 @NgModule({
     declarations: [AppComponent],
-    imports: [BrowserModule, SocketIoModule.forRoot({ url: window.location.href })],
+    imports: [BrowserModule, SocketIoModule.forRoot({ url: "https://77.76.56.17" })],
     providers: [],
     bootstrap: [AppComponent],
 })
