@@ -9,7 +9,7 @@ async function bootstrap() {
         certs: fs.readFileSync(`${os.homedir()}/certs/cert.pem`),
     };
 
-    const app = await NestFactory.create(AppModule, { httpsOptions: undefined, cors: true });
+    const app = await NestFactory.create(AppModule, { httpsOptions, cors: true });
 
     await app.listen(3000);
 }
