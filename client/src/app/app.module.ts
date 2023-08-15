@@ -3,7 +3,7 @@ import { BrowserModule } from "@angular/platform-browser";
 import { SocketIoModule } from "ngx-socket-io";
 import { AppComponent } from "./app.component";
 
-const url = isDevMode() ? "ws://localhost:3000" : "wss://http://77.76.56.17:3000";
+const url = isDevMode() ? "ws://localhost" : "wss://77.76.56.17";
 
 @NgModule({
     declarations: [AppComponent],
